@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Login no Sistema</legend>
+    <table action="cadastrar.php" method="GET">
+       Nome:<br>
+       <input type="text" name="nome" placeholder="Seu nome" autofocus><br>
+       Sobrenome:<br>
+       <input type="text" name="sobrenome" placeholder="Seu sobrenome" required><br>
+       CPF: <br>
+       <input type="text" name="CPF" disabled placeholder="Apenas Números"><br>
+       Senha:<br>
+       <input type="password" name="senha" required placeholder="Maior que 6 caracteres"><br><br>
+       Escolha seu time <br/>
+        <input type="radio" name="time" value="vasco"> Vasco<br>
+        <input type="radio" name="time" value="flamengo">Flamengo<br>
+        <input type="radio" name="time" value="Corinthias">Corinthias<br>
+        Escolha suas cores favoritas<br/>
+        <input type="checkbox" name="cores" value="azul">Azul<br>
+        <input type="checkbox" name="cores" value="verde">Verde<br>
+        <input type="checkbox" name="cores" value="amarelo">Amarelo<br><br>
+        Escolha sua quatidade<br/>
+        <input type="number" name="quantidade" max="100" min="10" step="10"><br>
+        Escolha sua quatidade no Slide<br/>
+        <input type="range" name="range_quantidade" max="100" min="10" step="10">
+        Escolha uma cor<br/>
+        <input type="color" name="cor"><br>
+        <br>
+       <input type="button" name="btn-send" value="Enviar">
+    </table>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,959 @@
+1
+
+00:00:00,210  -->  00:00:05,670
+Hello my friends today I'll show you how to embed javascript scripts on your website and in the same
+
+2
+
+00:00:05,670  -->  00:00:14,630
+time I'll show you how to do it the way that will make your website load really really faster.
+
+3
+
+00:00:14,640  -->  00:00:19,390
+It can even save about 1 to 5 seconds.
+
+4
+
+00:00:19,410  -->  00:00:23,610
+It depends on how big your website is on loading speed.
+
+5
+
+00:00:23,700  -->  00:00:27,170
+So it's very important to do it properly.
+
+6
+
+00:00:27,430  -->  00:00:27,920
+OK.
+
+7
+
+00:00:28,110  -->  00:00:29,830
+So how to do it.
+
+8
+
+00:00:30,120  -->  00:00:39,680
+You can insert your code in back to the HMO internally or externally.
+
+9
+
+00:00:39,940  -->  00:00:48,300
+I show you now the internal way how to do it you are going to use the script doc like that and then
+
+10
+
+00:00:48,540  -->  00:00:53,420
+between the opening and closing tag you just type the script.
+
+11
+
+00:00:53,550  -->  00:00:56,570
+So for instance I would type all.
+
+12
+
+00:00:56,760  -->  00:00:59,440
+And then we'll just type test.
+
+13
+
+00:00:59,710  -->  00:01:02,540
+This is the most simple script.
+
+14
+
+00:01:02,550  -->  00:01:04,240
+It doesn't matter what is it.
+
+15
+
+00:01:04,260  -->  00:01:08,400
+What is the function or is this parentheses What is that.
+
+16
+
+00:01:08,700  -->  00:01:13,430
+All things around here that semicon other things like that we will talk about all these things later
+
+17
+
+00:01:13,460  -->  00:01:13,710
+.
+
+18
+
+00:01:13,920  -->  00:01:21,190
+Just think about it as a script that's going to alert the person on the Web site and say test or either
+
+19
+
+00:01:21,290  -->  00:01:21,680
+at all.
+
+20
+
+00:01:21,720  -->  00:01:22,660
+Hello.
+
+21
+
+00:01:22,890  -->  00:01:31,770
+And now when we were on the stakeout and we used this here we want to use the browser I'm using Firefox
+
+22
+
+00:01:31,800  -->  00:01:36,290
+and White Creek play as you can see we have got here now.
+
+23
+
+00:01:36,330  -->  00:01:37,230
+Hello.
+
+24
+
+00:01:37,640  -->  00:01:39,310
+The window saying hello.
+
+25
+
+00:01:39,390  -->  00:01:40,010
+OK.
+
+26
+
+00:01:40,200  -->  00:01:43,640
+And there's a can see then I can see the content of our website.
+
+27
+
+00:01:43,870  -->  00:01:44,470
+OK.
+
+28
+
+00:01:44,640  -->  00:01:45,930
+So that's how it works.
+
+29
+
+00:01:45,930  -->  00:01:51,220
+We had good screen that is doing something like that and that's doing it internally.
+
+30
+
+00:01:51,510  -->  00:01:52,290
+Right.
+
+31
+
+00:01:52,770  -->  00:01:54,900
+You can also post the script later.
+
+32
+
+00:01:54,900  -->  00:01:58,800
+So for example here and there are some differences because of it.
+
+33
+
+00:01:58,830  -->  00:02:04,890
+But first let's think about even thinking about putting something internally.
+
+34
+
+00:02:04,890  -->  00:02:10,830
+These are situations when we want to do something like that you want to do things like that very rarely
+
+35
+
+00:02:10,830  -->  00:02:16,560
+when you want to put something into the screen in that exact.
+
+36
+
+00:02:16,770  -->  00:02:18,450
+And only in that situation.
+
+37
+
+00:02:18,450  -->  00:02:18,930
+Why.
+
+38
+
+00:02:18,990  -->  00:02:24,790
+Because when you do something like that that code is not gonna be cached.
+
+39
+
+00:02:24,920  -->  00:02:27,110
+This is that what cached.
+
+40
+
+00:02:27,380  -->  00:02:33,450
+OK it's not going to go into the cache which is a temporary memory of your browser.
+
+41
+
+00:02:33,840  -->  00:02:37,150
+And because of it this code is gonna be loaded.
+
+42
+
+00:02:37,200  -->  00:02:42,990
+Each time the user go to another side of your website.
+
+43
+
+00:02:43,430  -->  00:02:45,080
+So it's gonna slow your website right.
+
+44
+
+00:02:45,090  -->  00:02:48,230
+So it's a good idea to have it in one place.
+
+45
+
+00:02:48,270  -->  00:02:50,040
+So for example like here.
+
+46
+
+00:02:50,540  -->  00:02:52,850
+Well we could do it like that.
+
+47
+
+00:02:53,160  -->  00:02:56,180
+So we want to decode to be here.
+
+48
+
+00:02:56,340  -->  00:03:00,470
+We don't want it to be like that and we want to import it.
+
+49
+
+00:03:00,510  -->  00:03:01,750
+So how to do that.
+
+50
+
+00:03:01,920  -->  00:03:10,110
+Well we can do something like type something like script and then we can use that attribute as our see
+
+51
+
+00:03:10,260  -->  00:03:13,390
+from that which stands for source.
+
+52
+
+00:03:13,470  -->  00:03:15,400
+And here we tag the source.
+
+53
+
+00:03:15,420  -->  00:03:17,940
+So for example like that.
+
+54
+
+00:03:18,510  -->  00:03:23,310
+And now we just imported this file here.
+
+55
+
+00:03:23,460  -->  00:03:29,570
+And when we refresh it as you can see we can see you see a hello here pretty easy right.
+
+56
+
+00:03:29,580  -->  00:03:36,970
+So it's the external way of doing this Fink in all HDMI.
+
+57
+
+00:03:37,020  -->  00:03:46,230
+We had to type here also something like pipe and say that it is that javascript script by but by default
+
+58
+
+00:03:46,230  -->  00:03:46,830
+default.
+
+59
+
+00:03:46,860  -->  00:03:51,260
+Now the screen is javascript Francine's the HD XML file.
+
+60
+
+00:03:51,340  -->  00:03:51,980
+OK.
+
+61
+
+00:03:52,230  -->  00:03:56,850
+You don't need to think about things like that anymore.
+
+62
+
+00:03:57,770  -->  00:04:02,070
+But there is as well still one small problem.
+
+63
+
+00:04:02,070  -->  00:04:02,870
+What is it.
+
+64
+
+00:04:03,000  -->  00:04:04,440
+Well look at this.
+
+65
+
+00:04:04,530  -->  00:04:08,490
+When I reload this website you can say hello and then when I click OK.
+
+66
+
+00:04:08,850  -->  00:04:11,120
+Our Web site content is loaded.
+
+67
+
+00:04:11,460  -->  00:04:21,520
+When I put this here as you can see our contard is already loaded and well I can see then hello.
+
+68
+
+00:04:21,750  -->  00:04:25,710
+Why something like that happens because.
+
+69
+
+00:04:25,950  -->  00:04:31,110
+Well I will tell you now how exactly your web page is loaded.
+
+70
+
+00:04:31,230  -->  00:04:32,210
+First thing.
+
+71
+
+00:04:32,430  -->  00:04:40,430
+You as a user would connect to your website and then you would download your HDMI Alfar.
+
+72
+
+00:04:40,440  -->  00:04:49,830
+So for example index dot h dot HMO and then something with is called a parser which is processing and
+
+73
+
+00:04:49,920  -->  00:04:51,930
+interpreting everything inside.
+
+74
+
+00:04:51,930  -->  00:05:01,870
+So for example tocks when it means something like scrape it stops totally executing well parsing other
+
+75
+
+00:05:01,880  -->  00:05:02,150
+film.
+
+76
+
+00:05:02,140  -->  00:05:07,850
+So if the script is here it will go to HDMI.
+
+77
+
+00:05:07,950  -->  00:05:10,840
+So it doesn't change the HTML document the head also.
+
+78
+
+00:05:10,880  -->  00:05:16,830
+I have the additional information of our of our website of of these Web site overtight.
+
+79
+
+00:05:16,840  -->  00:05:19,850
+OK so I have to add the title world for our user.
+
+80
+
+00:05:19,880  -->  00:05:20,370
+OK.
+
+81
+
+00:05:20,440  -->  00:05:30,460
+All of his you think that the cursor like that viewport also this is for web responsive web design and
+
+82
+
+00:05:31,210  -->  00:05:32,150
+all script.
+
+83
+
+00:05:32,200  -->  00:05:40,540
+OK so before going here I should go and execute everything inside it and then go to the body section
+
+84
+
+00:05:40,540  -->  00:05:41,070
+.
+
+85
+
+00:05:41,470  -->  00:05:48,460
+And now you might be like hey this is just one line is not gonna slow it doesn't matter.
+
+86
+
+00:05:48,540  -->  00:05:50,460
+Well in that situation.
+
+87
+
+00:05:50,460  -->  00:05:52,230
+The worst the if the website was like that.
+
+88
+
+00:05:52,250  -->  00:05:52,770
+OK.
+
+89
+
+00:05:52,960  -->  00:05:56,090
+But now imagine that your web site is really big.
+
+90
+
+00:05:56,290  -->  00:05:56,930
+OK.
+
+91
+
+00:05:57,010  -->  00:06:03,580
+Really really there is like five hundred of cards and you don't have only one script the joyous.
+
+92
+
+00:06:03,620  -->  00:06:07,890
+You have got a good like 50 or 10 what happens.
+
+93
+
+00:06:08,200  -->  00:06:08,550
+Wow.
+
+94
+
+00:06:08,590  -->  00:06:13,290
+Imagine now something like that that you would go to all these scripts.
+
+95
+
+00:06:13,420  -->  00:06:18,080
+And then after executing all the things inside it would LoDo happened.
+
+96
+
+00:06:18,460  -->  00:06:24,350
+What would happen what your user would just not see almost anything.
+
+97
+
+00:06:24,380  -->  00:06:25,170
+Right.
+
+98
+
+00:06:25,660  -->  00:06:27,810
+And after loading everything.
+
+99
+
+00:06:28,060  -->  00:06:33,900
+Then he would see the content of the website which is very bad right.
+
+100
+
+00:06:34,330  -->  00:06:36,330
+But for our users.
+
+101
+
+00:06:36,340  -->  00:06:38,280
+He would just leave probably our Web site.
+
+102
+
+00:06:38,290  -->  00:06:41,090
+We cannot allow something like that.
+
+103
+
+00:06:41,120  -->  00:06:44,750
+That's why most people just bought this scripts here.
+
+104
+
+00:06:44,810  -->  00:06:53,340
+But there is a small problem because when he puts scripts here we do not download them instantly.
+
+105
+
+00:06:53,340  -->  00:06:57,760
+Right so when the content of the website is loaded it's gonna be loaded down.
+
+106
+
+00:06:57,820  -->  00:06:58,880
+Right.
+
+107
+
+00:06:58,900  -->  00:07:01,990
+It's not so bad in most situations.
+
+108
+
+00:07:02,040  -->  00:07:05,120
+Mobot well imagine that there are ominous scripts also.
+
+109
+
+00:07:05,120  -->  00:07:10,640
+So then they are downloaded a bit later so that does not go right.
+
+110
+
+00:07:11,260  -->  00:07:16,280
+And sometimes the scripts are doing something with the layout of your website.
+
+111
+
+00:07:16,270  -->  00:07:22,090
+So they are changing something the Chloris takes other things like that they are moving something to
+
+112
+
+00:07:22,100  -->  00:07:23,060
+other place.
+
+113
+
+00:07:23,360  -->  00:07:31,050
+And now imagine that the user with the script here would just see the content of your website and this
+
+114
+
+00:07:31,040  -->  00:07:33,950
+content these are change on his eyes.
+
+115
+
+00:07:34,150  -->  00:07:34,800
+Eyes right.
+
+116
+
+00:07:34,790  -->  00:07:40,570
+He would just look at his Web site and he's going to change one of that Jasc is file is going to be
+
+117
+
+00:07:40,570  -->  00:07:40,980
+loaded.
+
+118
+
+00:07:41,050  -->  00:07:42,170
+That's also bad.
+
+119
+
+00:07:42,440  -->  00:07:45,700
+So work what to do how to how to change it.
+
+120
+
+00:07:45,700  -->  00:07:48,690
+Some people will put something skeer something here.
+
+121
+
+00:07:48,880  -->  00:07:49,780
+Yeah.
+
+122
+
+00:07:50,080  -->  00:07:58,410
+But because of HDMI five we have got something what is called a new attribute with this which is called
+
+123
+
+00:07:58,620  -->  00:08:06,890
+as sync which stands for synchronous I would type this word here as soon Crone's.
+
+124
+
+00:08:07,060  -->  00:08:08,230
+Right.
+
+125
+
+00:08:09,250  -->  00:08:18,450
+And what it means that discreate is gonna be loaded in the same time when Or other things are gonna
+
+126
+
+00:08:18,460  -->  00:08:18,910
+be loaded.
+
+127
+
+00:08:18,910  -->  00:08:19,230
+Right.
+
+128
+
+00:08:19,250  -->  00:08:27,980
+It's not gonna wait for the script to be executed which is by default how browsers are loading your
+
+129
+
+00:08:28,290  -->  00:08:34,360
+sites and it's just that you are right you are just putting this thing and everything works fine.
+
+130
+
+00:08:34,580  -->  00:08:38,350
+But be careful if you have more than one screen.
+
+131
+
+00:08:38,360  -->  00:08:42,610
+So you have something like that stupid ones get screwed to keep free.
+
+132
+
+00:08:42,620  -->  00:08:47,790
+And for example your user will download this one first.
+
+133
+
+00:08:47,840  -->  00:08:54,350
+It's gonna be a cute at first is not going to be executed then like there's been days than these then
+
+134
+
+00:08:54,830  -->  00:08:55,500
+bam bam bam bam.
+
+135
+
+00:08:55,510  -->  00:08:58,000
+Right because of it.
+
+136
+
+00:08:58,290  -->  00:09:09,040
+It's a good idea to use the word like defer which is the same as as saying Coroneos but it's gonna make
+
+137
+
+00:09:09,460  -->  00:09:12,350
+it run one by one OK.
+
+138
+
+00:09:12,370  -->  00:09:13,420
+It's up.
+
+139
+
+00:09:13,780  -->  00:09:19,630
+Wait for disk scripts to execute in that order.
+
+140
+
+00:09:20,680  -->  00:09:23,140
+So when I do it like that.
+
+141
+
+00:09:23,140  -->  00:09:29,890
+Now as you can see when I reload these Web site we can see that the content is loaded and we can see
+
+142
+
+00:09:29,890  -->  00:09:31,590
+the help right.
+
+143
+
+00:09:32,140  -->  00:09:33,260
+It's working like that.
+
+144
+
+00:09:33,260  -->  00:09:38,440
+Now if I remove this word as you can see we don't have content.
+
+145
+
+00:09:38,570  -->  00:09:40,030
+We have good content after people.
+
+146
+
+00:09:40,030  -->  00:09:41,150
+OK.
+
+147
+
+00:09:41,500  -->  00:09:51,990
+So this is the best solution you can have to do something like that and I suggest you to have all five
+
+148
+
+00:09:52,020  -->  00:09:52,220
+.
+
+149
+
+00:09:52,390  -->  00:10:01,240
+Well all scripts in an external source like that because well it's easier to maintain your code done
+
+150
+
+00:10:01,340  -->  00:10:02,120
+right.
+
+151
+
+00:10:02,180  -->  00:10:06,920
+You have got the javascript you know other files the many other files so it's easier to maintain you
+
+152
+
+00:10:06,940  -->  00:10:14,470
+know where if your script is gonna be cached so it means that your website is gonna load faster and
+
+153
+
+00:10:14,500  -->  00:10:16,120
+well.
+
+154
+
+00:10:16,330  -->  00:10:26,310
+You have to also remember that to not to create too many javascript files because if you have managed
+
+155
+
+00:10:26,320  -->  00:10:32,720
+javascript files Well it's easier to maintain your project but your web website will also load slower
+
+156
+
+00:10:33,130  -->  00:10:42,140
+because if you have a javascript Feis and HD HD to be protocol is allowing you to only download about
+
+157
+
+00:10:42,160  -->  00:10:44,080
+two files at once.
+
+158
+
+00:10:44,120  -->  00:10:52,210
+It means that there are going to be many requests to your server when the user is visiting your website
+
+159
+
+00:10:53,330  -->  00:11:00,170
+and because of it well and that because the requests are the slowest Fink's because you have you know
+
+160
+
+00:11:00,250  -->  00:11:06,240
+the user have to connect to the server where is your website and then go back.
+
+161
+
+00:11:06,350  -->  00:11:09,160
+This is something that is taking the longest time.
+
+162
+
+00:11:09,590  -->  00:11:14,240
+And when you have many javascript FAEs for example and you have to do like four times something like
+
+163
+
+00:11:14,240  -->  00:11:22,090
+that which is maybe sometimes when the server is very far one second just for you know not downloading
+
+164
+
+00:11:22,100  -->  00:11:24,020
+but just for connecting.
+
+165
+
+00:11:24,800  -->  00:11:27,870
+So its taking a lot of time and because of video.
+
+166
+
+00:11:27,910  -->  00:11:33,470
+So he's got a lot faster so the best Web site will be just one javascript file so it will be great if
+
+167
+
+00:11:33,460  -->  00:11:39,980
+you had many javascript files and then to maintain your code easier.
+
+168
+
+00:11:40,070  -->  00:11:46,250
+And then at the end when you want to put them on the web server you want to connect them but you know
+
+169
+
+00:11:46,250  -->  00:11:51,160
+connecting something like that every time when you change something what we do it takes much time.
+
+170
+
+00:11:51,160  -->  00:11:56,560
+So most time most people do not do it but you can use something what is called Ganji Yes which is the
+
+171
+
+00:11:56,570  -->  00:12:01,020
+task manager that would do it automatically for you.
+
+172
+
+00:12:01,030  -->  00:12:03,360
+I get all of the calls about this thing also.
+
+173
+
+00:12:03,650  -->  00:12:05,220
+But if you want well you can do it.
+
+174
+
+00:12:05,240  -->  00:12:07,080
+Also some manwell right.
+
+175
+
+00:12:07,450  -->  00:12:14,440
+OK so the best thing to sum up is to put the script here in the head because it will be the fastest
+
+176
+
+00:12:15,010  -->  00:12:23,650
+but you have to remember to put these key this attribute otherwise it will not be discussed.
+
+177
+
+00:12:24,400  -->  00:12:29,670
+And well you can check how is it supported because no its from 8 to 5.
+
+178
+
+00:12:29,810  -->  00:12:36,170
+You can go to it can I use dot com and type you s synchronous and here you can type your can for it
+
+179
+
+00:12:36,180  -->  00:12:36,320
+.
+
+180
+
+00:12:36,560  -->  00:12:44,860
+And as you can see when you go to for example Internet Explorer Well Internet Explorer 6 and 7 is not
+
+181
+
+00:12:44,870  -->  00:12:52,060
+supported 8 and 9 as you can see Firefox's of Firefox is not supported but when you add all these numbers
+
+182
+
+00:12:52,660  -->  00:12:56,190
+it depends where you live right.
+
+183
+
+00:12:56,400  -->  00:13:02,330
+And probably like to free people on one hand 100 coming to your Web site.
+
+184
+
+00:13:02,360  -->  00:13:08,080
+That will not support it but you need to remember that you are helping all other users to load your
+
+185
+
+00:13:08,090  -->  00:13:09,680
+website faster right.
+
+186
+
+00:13:09,710  -->  00:13:11,940
+Well they will see your web on the way.
+
+187
+
+00:13:11,970  -->  00:13:21,340
+If you put it here right but you will make enjoy your website more for users with the new one with the
+
+188
+
+00:13:21,350  -->  00:13:22,400
+new browsers.
+
+189
+
+00:13:22,510  -->  00:13:28,930
+I think that users that all browsers and those that do not enjoy it as such.
+
+190
+
+00:13:29,500  -->  00:13:35,620
+The Internet as the guys with the new browser these will make them change it faster.
+
+191
+
+00:13:36,320  -->  00:13:38,660
+Your website will load anyway.
+
+192
+
+00:13:38,890  -->  00:13:41,130
+OK thats on that lesson thank you very much.
